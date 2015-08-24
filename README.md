@@ -57,8 +57,10 @@ CREATE TABLE [InvItem](
 ![Diagram](images/Silvan_ER.png)
 
 ##### OPG 0.4 Beskriv hvad der sker med Silvan databasen når man følger mapningsreglerne.
+ER diagrammet beskriver en databases logiske opbygning med entiteter og relationer, mens et RDS er den faktiske implementering af disse. Ved at følge mapningsreglerne kan der overgåes fra logisk til fysisk.
 
-##### OPG 0.4 Beskriv hvad der sker med Silvan databasen hvis den skal opfylde 3. noalform.
+##### OPG 0.4 Beskriv hvad der sker med Silvan databasen hvis den skal opfylde 3. normalform.
+Ummidelbart mener vi at 3. normalform er opfyldt. Alle attributter refererer til primærnøglen i tabellen og er indbyrdes uafhængige. 
 
 ##### OPG 0.5 Opret et RDS i Visio over Silvan databasen.
 ![Diagram](images/Silvan_ER.png)
